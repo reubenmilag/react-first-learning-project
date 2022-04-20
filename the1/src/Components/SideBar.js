@@ -1,6 +1,8 @@
 import "./../Assets/Styles/sidebars.css";
 
 function Sidebar() {
+    const userName = "Reuben F";
+    
     return(
         <div className="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark h-100">
             <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
@@ -44,7 +46,7 @@ function Sidebar() {
             <div className="dropdown">
                 <a href="#" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="https://github.com/mdo.png" alt="" width="32" height="32" className="rounded-circle me-2" />
-                    <strong>mdo</strong>
+                    <strong>{userName}</strong>
                 </a>
                 <ul className="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
                     <li><a className="dropdown-item" href="#">New project...</a></li>

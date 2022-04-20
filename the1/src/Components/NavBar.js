@@ -1,10 +1,12 @@
 import "./../Assets/Styles/offcanvas.css";
 
 function NavBar() {
+    const productTitle = "REACT - The1";
+
     return (
         <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Offcanvas navbar</a>
+                <a className="navbar-brand" href="#">{productTitle}</a>
                 <button className="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>

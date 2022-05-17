@@ -14,13 +14,13 @@ function NavBar() {
                 <div className="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Dashboard</a>
+                    <a className="nav-link active" aria-current="page" href="#">Dashboard</a>  
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" href="#">Notifications</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Profile</a>
+                    <a className="nav-link active" href="#">Profile</a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" href="#">Switch account</a>
